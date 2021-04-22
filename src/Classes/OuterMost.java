@@ -8,6 +8,8 @@ Topic: Inner Classes, Extras
 */
 public class OuterMost {
 
+    public void test(){};
+
     private String OuterString = "Attribute of OuterMost class";
 
     // public inner class member
@@ -46,7 +48,6 @@ public class OuterMost {
 
             }
         }
-
     }
 
     // package/private inner class member

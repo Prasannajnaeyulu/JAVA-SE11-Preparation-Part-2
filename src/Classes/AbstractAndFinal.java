@@ -33,6 +33,11 @@ package Classes;
 abstract interface Test{
 }
 
+// compiler error: Cannot return a value from a method with void result type
+//void abc(){
+//    return "abc";
+//}
+
 
 public class AbstractAndFinal {
     // Inside class we can have nested classes, interfaces or enums with any access modifier

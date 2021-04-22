@@ -13,6 +13,9 @@ Topic:  Nested Class, Extras
 //class TestInheritance1 extends OuterMost.PublicInner {
 //}
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
 public class TestInheritance extends OuterMost {
     public static void main(String[] args) {
         // compiler error: classes can't be accessed directly in a static context
